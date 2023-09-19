@@ -10,7 +10,7 @@ return $tong;
 function Tich($arrs){
     $tich = $arrs[0];
 for ($i = 1; $i < count($arrs); $i++) {
-    $tich -= $arrs[$i];
+    $tich *= $arrs[$i];
 }
 return $tich;
 }
