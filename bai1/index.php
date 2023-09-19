@@ -28,11 +28,8 @@ for ($i = 1; $i < count($arrs); $i++) {
 }
 return $thuong;
 }
-echo "Tổng các phần tử ".implode("+",arrs)."=".Tong($arrs);
-echo "Tích các phần tử = ";
-echo Tich($arrs). "<br>";
-echo "Hiệu các phần tử =";
-echo Hieu($arrs). "<br>";
-echo "Thương các phần tử =";
-echo Thuong($arrs). "<br>";
+echo "Tổng các phần tử = ".implode(" + ",$arrs)." = ".Tong($arrs). "<br>";
+echo "Tích các phần tử = ".implode(" * ",$arrs)." = ".Tich($arrs). "<br>";
+echo "Hiệu các phần tử = ".implode(" - ",$arrs)." = ".Hieu($arrs). "<br>";
+echo "Thương các phần tử = ".implode(" / ",$arrs)." = ".Thuong($arrs). "<br>";
 ?>
