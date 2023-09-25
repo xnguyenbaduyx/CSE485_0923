@@ -33,4 +33,3 @@ echo "Tích các phần tử = ".implode(" * ",$arrs)." = ".Tich($arrs). "<br>";
 echo "Hiệu các phần tử = ".implode(" - ",$arrs)." = ".Hieu($arrs). "<br>";
 echo "Thương các phần tử = ".implode(" / ",$arrs)." = ".Thuong($arrs). "<br>";
 ?>
-<span style = {$mau[$i]}>đỏ</span>

@@ -7,7 +7,7 @@ $arrs = array("Italy" => "Rome", "Luxembourg" => "Luxembourg", "Belgium" =>
 Kingdom" => "London", "Cyprus" => "Nicosia", "Lithuania" => "Vilnius", "Czech
 Republic" => "Prague", "Estonia" => "Tallin", "Hungary" => "Budapest", "Latvia" =>
 "Riga", "Malta" => "Valetta", "Austria" => "Vienna", "Poland" => "Warsaw");
-foreach($arrs as $items){
-    echo""
-}
+    foreach ($arrs as $country => $capital) {
+        echo "Thủ đô của $country là $capital<br>";
+    }
 ?>
